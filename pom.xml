@@ -26,11 +26,11 @@
         </dependency>
 
         <!-- Client -->
-        <dependency>
-            <groupId>org.kie</groupId>
-            <artifactId>kie-server-client</artifactId>
-            <version>${drools.old.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.kie</groupId>-->
+            <!--<artifactId>kie-server-client</artifactId>-->
+            <!--<version>${drools.old.version}</version>-->
+        <!--</dependency>-->
 
     </dependencies>
     <build>
