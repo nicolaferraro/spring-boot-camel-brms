@@ -11,6 +11,7 @@
 
     <properties>
         <drools.version>6.4.0.Final</drools.version>
+        <drools.old.version>6.2.0.Final</drools.old.version>
         <jbpm.version>6.4.0.Final</jbpm.version>
     </properties>
 
@@ -23,6 +24,14 @@
             <artifactId>kie-api</artifactId>
             <version>${drools.version}</version>
         </dependency>
+
+        <!-- Client -->
+        <dependency>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-server-client</artifactId>
+            <version>${drools.old.version}</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
