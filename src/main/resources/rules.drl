@@ -1,6 +1,6 @@
-package org.drools.workshop;
+package org.drools.example;
 
-rule "My First Drools Rule"
+rule "MyRule"
     when
         $o: Object()
     then
